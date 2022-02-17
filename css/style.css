@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+.img {
+    width: 300px;
+    height: auto;
+}
+
+.products {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.product {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.front {
+    position: relative;
+    z-index: 1;
+}
+
+.product .front:hover {
+    visibility: hidden;
+}
